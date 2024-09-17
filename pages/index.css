@@ -123,3 +123,7 @@
   display: flex;
   justify-content: space-between;
 }
+
+iframe {
+  border: none;
+}
