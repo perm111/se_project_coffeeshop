@@ -119,6 +119,62 @@
         </section>
         <section class="reservation">
           <!-- Content for reservation section -->
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">
+                Name *
+                <input
+                  required
+                  type="text"
+                  id="name-input"
+                  class="form__input"
+                  placeholder="Name Surname"
+                />
+              </label>
+
+              <label for="number-of-guests" class="form__label">
+                Number of guests
+                <input
+                  required
+                  type="number"
+                  id="number-of-guests"
+                  class="form__input"
+                  min="1"
+                  max="8"
+                  placeholder="1-8"
+                />
+              </label>
+
+              <label for="Date-Time" class="form__label">
+                Date & Time *
+                <input
+                  required
+                  for="Date-Time"
+                  type="datetime-local"
+                  class="form__input"
+                  placeholder=""
+                />
+              </label>
+
+              <label for="email-input" class="form__label">
+                Your email *
+                <input
+                  required
+                  type="email"
+                  id="email-input"
+                  class="form__input"
+                  placeholder="email@email.com"
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+
+            <label for="" class="form__label form__label_type_checkbox">
+              <input required type="checkbox" class="form__input" />
+              I agree with the terms of use
+            </label>
+          </form>
         </section>
         <section class="menu">
           <!-- Content for menu section -->
