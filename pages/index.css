@@ -135,6 +135,11 @@ iframe {
 .reservation__title {
   margin-bottom: 80px;
   text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .reservation__form {
