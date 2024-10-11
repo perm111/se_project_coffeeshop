@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px; /* Adjust based on how much vertical height you need */
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+}
+.checkbox-label span {
+  margin-right: 10px; /* Adjust the spacing between the text and checkbox if needed */
+}
+
+.checkbox-text {
+  margin-left: 12px; /* Adjust the spacing between the text and checkbox if needed */
+  white-space: nowrap; /* Ensure the text doesn't wrap to another line */
+}
