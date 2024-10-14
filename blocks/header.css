@@ -41,6 +41,8 @@
 .header__span-accent {
   color: #3f96f3;
   display: block;
+  font-family: "Times New Roman", Helvetica, sans-serif;
+  font-style: italic;
 }
 
 .header__footer {
