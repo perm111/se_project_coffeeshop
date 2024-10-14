@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   background-image: url(../images/background_menu.svg);
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -16,9 +16,9 @@
 }
 
 .menu__subtitle {
+  font-family: "Noto Serif", "Times New Roman", sans-serif;
   margin: 0px 0px 100px;
   max-width: 780px;
-  font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

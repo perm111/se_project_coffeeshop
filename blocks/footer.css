@@ -27,6 +27,8 @@
 
 .footer__column-heading {
   margin: 0 0 20px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 700;
 }
 
 .footer__list {

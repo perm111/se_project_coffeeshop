@@ -20,6 +20,7 @@
   line-height: 52px;
   margin: 0px;
   z-index: 2;
+  font-family: "Inter", "Arial", sans-serif;
 }
 
 .about__content {
