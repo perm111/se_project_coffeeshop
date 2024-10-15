@@ -2,11 +2,10 @@
   background-color: #0a2850;
   color: white;
   padding: 100px 80px 173px;
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   flex-direction: row;
   font-family: "Inter", "Arial", sans-serif;
-  gap: 200px;
   position: relative;
   overflow: hidden;
   z-index: 0;
@@ -25,7 +24,7 @@
 
 .about__content {
   max-width: 660px;
-  margin-top: 19px 0 0;
+  margin: 19px 0 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -63,7 +62,6 @@
   }
 
   50% {
-    transform: scale(0.6);
     opacity: 0.6;
   }
 

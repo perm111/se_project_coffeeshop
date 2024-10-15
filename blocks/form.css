@@ -13,7 +13,7 @@
   width: 100%;
   box-sizing: border-box;
   padding: 15px 20px;
-  margin: -2px 0 32px;
+  margin: 8;
   border: 1px solid #838383;
   min-height: 60px;
   border-radius: 4px;
@@ -21,6 +21,7 @@
 
 .form__button {
   background-color: #2f80ed;
+  margin-top: 10px;
 
   color: #ffffff;
   width: 100%;
@@ -34,4 +35,15 @@
 
 .form__button:hover {
   opacity: 70%;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+}
+
+.form__checkbox-text {
+  text-align: center;
 }
