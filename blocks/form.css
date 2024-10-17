@@ -13,7 +13,7 @@
   width: 100%;
   box-sizing: border-box;
   padding: 15px 20px;
-  margin: 8;
+  margin: 8px 0 32px;
   border: 1px solid #838383;
   min-height: 60px;
   border-radius: 4px;
@@ -39,11 +39,16 @@
 
 .form__label_type_checkbox {
   display: flex;
-  flex-direction: column;
   gap: 5px;
   justify-content: center;
+  /* text-align: center; */
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-.form__checkbox-text {
-  text-align: center;
+.form__checkbox {
+  width: 20px;
 }
